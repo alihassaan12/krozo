@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KROZO</title>
+
+    <link rel="stylesheet" href="assets/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="assets/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Task.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/typed/typed.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
+
+</head>
+
+<body>
+    <!--------------------------------------Start Navbar Section------------------------------------->
+    <header>
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-dark" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo-light.svg" alt=""></a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-------------------------------------end navbar Section------------------------------------------->
+
+    <!-----------------------------------Start Hero Section------------------------------------------------>
+    <div class="container-fluid hero-section  d-flex align-items-center justify-content-center">
+        <div class="row">
+            <div class="top-style "><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163.1 150.9"
+                    enable-background="new 0 0 163.1 150.9">
+                    <path fill="currentColor"
+                        d="M119,12.1c14.4,5.6,30,11.9,37.7,23.3c7.8,11.4,7.7,28.1,3.5,42.2c-4.3,14.2-12.7,25.9-21.1,36.3    c-8.4,10.3-16.8,19.2-26.9,25.8c-10.2,6.7-22.1,11-34.1,11.2c-12,0.2-24.1-3.9-33.8-10.7c-9.7-6.9-17-16.7-23.1-27.2    C15,102.5,10,91.3,5.6,77.6C1.2,63.8-2.6,47.5,2.2,34.8C7.1,22.1,20.7,13,34.8,7.3c14.1-5.8,28.7-8.2,42.7-7C91.4,1.6,104.6,6.6,119,12.1z">
+                    </path>
+                </svg></div>
+            <div class="bottom-style"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400.6 1226.4"
+                    enable-background="new 0 0 1400.6 1226.4">
+                    <path fill="currentColor"
+                        d="M1384.4,488c-49.2-80.5-218.1-104.6-341.5-187.7C920.4,218,845.3,76.7,731.8,24C618.3-27.9,466.3,8.8,342,91    C217.8,173.3,120.4,301.1,59.6,449.5C-0.3,597.9-23.6,766.9,30.1,905.4c52.7,138.6,182.4,246.7,318.2,292.3    c135.9,46.5,278,29.5,397.8-1.8c119.8-32.2,216.3-78.7,303-141.2c86.7-61.7,163.6-137.7,238.7-244C1362,704.3,1433.6,568.4,1384.4,488z">
+                    </path>
+                </svg></div>
+            <div class="nav social-icons justify-content-center text-sm-center justify-content-md-end"><a
+                    href="https://www.facebook.com/" rel="noreferrer" target="_blank"><svg stroke="currentColor"
+                        fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                        </path>
+                    </svg></a><a href="https://www.linkedin.com/" rel="noreferrer" target="_blank"><svg
+                        stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                        </path>
+                    </svg></a><a href="https://www.instagram.com/" rel="noreferrer" target="_blank"><svg
+                        stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </svg></a><a href="https://twitter.com/" rel="noreferrer" target="_blank"><svg stroke="currentColor"
+                        fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                        </path>
+                    </svg></a><a href="https://www.pinterest.com/" rel="noreferrer" target="_blank"><svg
+                        stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z">
+                        </path>
+                    </svg></a></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center banner ">
+                <h6 class="text-center">
+                    Hi There, I'm
+                </h6>
+                <h1 class="text-center">Krozo Plakson</h1>
+                <h2>
+                    <div id=flip>
+                        <div>
+                            <div>Web Developer</div>
+                        </div>
+                        <div>
+                            <div>UI/UX Designer</div>
+                        </div>
+                        <div>
+                            <div>App Developer</div>
+                        </div>
+                    </div>
+                </h2>
+
+            </div>
+
+        </div>
+    </div>
+    <!-----------------------------------end  Hero Section------------------------------------------------>
+
+    <!-----------------------------------Start About Section---------------------------------------------->
+    <div class="container-fluid about-bg">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 my-3 ">
+                    <div class="img-box" data-aos="fade-up">
+                        <img src="assets/img/asset 1.jpeg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 content-side">
+                    <h3>Krozo Plakson</h3>
+                    <h5>A lead <span class="text-bg">UX & UI</span> designer based in <span
+                            class="text-bg">Canada</span>
+                    </h5>
+                    <p>I design and develop services for customers of all sizes, specializing in creating stylish,
+                        modern
+                        websites, web services and online stores. My passion is to design digital user experiences
+                        through
+                        the bold interface and meaningful interactions. Check out my Portfolio</p>
+                    <div class="row about-list ">
+                        <div class="col-md-6">
+                            <div class="med1 d-flex">
+                                <label for="#">Birthday</label>
+                                <p>4th april 1991</p>
+                            </div>
+                            <div class="med1 d-flex">
+                                <label for="#">Age</label>
+                                <p>22 Yr</p>
+                            </div>
+                            <div class="med1 d-flex">
+                                <label for="#">Residence</label>
+                                <p>Canada</p>
+                            </div>
+                            <div class="med1 d-flex">
+                                <label for="#">Address</label>
+                                <p>California, USA</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="med1 d-flex">
+                                <label for="#">Birthday</label>
+                                <p>4th april 1991</p>
+                            </div>
+                            <div class="med1 d-flex">
+                                <label for="#">Age</label>
+                                <p>22 Yr</p>
+                            </div>
+                            <div class="med1 d-flex">
+                                <label for="#">Residence</label>
+                                <p>Canada</p>
+                            </div>
+                            <div class="med1 d-flex">
+                                <label for="#">Address</label>
+                                <p>California, USA</p>
+                            </div>
+                        </div>
+
+                        <div class="btn-holder" data-aos="fade-right">
+                            <button class="btn-theme btn-background-left">
+                                <a href="#" class="btn text-light">Download cv</a>
+                            </button>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------End About Section---------------------------------------------->
+
+    <!----------------------------------Start Service Section------------------------------------------->
+    <div class="container-fluid service-bg py-5">
+        <div class="container pt-5 ">
+            <div class="row d-flex justify-content-center pb-5">
+                <div class="col-lg-7 text-center">
+                    <h3 class="font-alt">My Services</h3>
+                    <p>I design and develop services for customers of all sizes, specializing in creating stylish,
+                        modern
+                        websites, web services and online stores.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 my-3">
+                    <div class="feature-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                            <h5>Development</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="feature-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="icon"><i class="fa-regular fa-image"></i></div>
+                            <h5>Graphic</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="feature-box mb-3" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="icon"><i class="fa-solid fa-window-restore"></i></div>
+                            <h5>Web Design</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="feature-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="icon"><i class="fa-solid fa-brush"></i></div>
+                            <h5>Web Design</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="feature-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="icon"><i class="fa-solid fa-camera"></i></div>
+                            <h5>Photography</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3">
+                    <div class="feature-box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="icon"><i class="fa-solid fa-globe"></i></div>
+                            <h5>Development</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!----------------------------------End Service Section------------------------------------------->
+
+    <!----------------------------------Start Expirence Section--------------------------------------->
+
+    <div class="container py-5">
+        <div class="row my-5">
+            <div class="col-lg-4 col-md-12 col-sm-12 ml-auto my-3">
+
+                <div class="tital">
+                    <h4>Education</h4>
+                </div>
+                <ul class="eduction-box-1">
+                    <li>
+                        <span class="bg-dark text-light">2010-2012</span>
+                        <h6>Front-end Engineer</h6>
+                        <p>International Design Institute</p>
+                    </li>
+                    <li class="top-bar">
+                        <span class="bg-dark text-light">2010-2012</span>
+                        <h6>Graphic Designer</h6>
+                        <p>Rio Design Institute</p>
+                    </li>
+                    <li class="top-bar">
+                        <span class="bg-dark text-light">2010-2012</span>
+                        <h6>Visual Designer</h6>
+                        <p>Jakarta Design Institute</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 ml-auto my-3">
+                <div class="tital">
+                    <h4>Experience</h4>
+                </div>
+                <ul class="eduction-box-2 bg-dark text-light">
+                    <li>
+                        <span class="box-li">2010-2012</span>
+                        <h6>Front-end Engineer</h6>
+                        <p>International Design Institute</p>
+                    </li>
+                    <li class="top-bar">
+                        <span class="box-li">2010-2012</span>
+                        <h6>Graphic Designer</h6>
+                        <p>Rio Design Institute</p>
+                    </li>
+                    <li class="top-bar">
+                        <span class="box-li">2010-2012</span>
+                        <h6>Visual Designer</h6>
+                        <p>Jakarta Design Institute</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 ml-auto my-3">
+                <div class="tital">
+                    <h4>My Skills</h4>
+                </div>
+                <div class="eduction-box-3">
+                    <h3 class="progress-title">React js</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:92%; ">
+                            <span class="progress-value">92%</span>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">WordPress</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:75%;">
+                            <div class="progress-value">75%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">Vue js</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:86%;">
+                            <div class="progress-value">86%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">UI/UX</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:88%;">
+                            <div class="progress-value">88%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">CSS3</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:92%;">
+                            <div class="progress-value">92%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------End Expirence Section--------------------------------------->
+
+    <!------------------------------------start Portfolio section------------------------------------->
+    <div class="container-fluid bg-gallery">
+        <div class="container">
+            <div class="row">
+                <div class="row d-flex justify-content-center pb-5">
+                    <div class="col-lg-7 text-center">
+                        <h3 class="font-alt">My Portfolio</h3>
+                        <p>I design and develop services for customers of all sizes, specializing in creating stylish,
+                            modern websites, web services and online stores.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <section class="gallery">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="gallery-filter">
+                                        <span class="filter-item active" data-filter="all">all</span>
+                                        <span class="filter-item" data-filter="Branding">Branding</span>
+                                        <span class="filter-item" data-filter="Photography">Photography</span>
+                                        <span class="filter-item" data-filter="Fashion">Fashion</span>
+                                        <span class="filter-item" data-filter="Product">Product</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!-- gallery item start -->
+                                    <div class="col-4 gallery-item Branding">
+                                        <div class="card rounded-0 border-0 shadow rounded gallery-item-inner">
+                                            <div class="card-body p-4">
+                                                <h4 class="font-hov-sec-5">Motion Graphy</h4>
+                                                <p>Android App</p>
+                                                <div class="img-ovrly">
+                                                    <img src="IMG/1.jpg" class="card-img-top rounded-0 bor img-hov"
+                                                        alt="...">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery item end -->
+                                    <!-- gallery item start -->
+                                    <div class="col-4 gallery-item Branding Product">
+                                        <div class="card rounded-0 border-0 shadow rounded gallery-item-inner">
+                                            <div class="card-body p-4">
+                                                <h4 class="font-hov-sec-5">Motion Graphy</h4>
+                                                <p>Android App</p>
+                                                <div class="img-ovrly">
+                                                    <img src="IMG/2.jpg" class="card-img-top rounded-0 bor img-hov"
+                                                        alt="...">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery item end -->
+                                    <!-- gallery item start -->
+                                    <div class="col-4 gallery-item Branding">
+                                        <div class="card rounded-0 border-0 shadow rounded gallery-item-inner">
+                                            <div class="card-body p-4">
+                                                <h4 class="font-hov-sec-5">E-Learning App</h4>
+                                                <p>Nuna ios App</p>
+                                                <div class="img-ovrly">
+                                                    <img src="IMG/3.jpg" class="card-img-top rounded-0 bor img-hov"
+                                                        alt="...">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery item end -->
+                                    <!-- gallery item start -->
+                                    <div class="col-4 gallery-item Photography">
+                                        <div class="card rounded-0 border-0 shadow rounded gallery-item-inner">
+                                            <div class="card-body p-4">
+                                                <h4 class="font-hov-sec-5">Business Card</h4>
+                                                <p>Graphicriver Market</p>
+                                                <div class="img-ovrly">
+                                                    <img src="IMG/4.jpg" class="card-img-top rounded-0 bor img-hov"
+                                                        alt="...">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery item end -->
+                                    <!-- gallery item start -->
+                                    <div class="col-4 gallery-item Branding">
+                                        <div class="card rounded-0 border-0 shadow rounded gallery-item-inner">
+                                            <div class="card-body p-4">
+                                                <h4 class="font-hov-sec-5">Code Editing</h4>
+                                                <p>Codecanyon Market</p>
+                                                <div class="img-ovrly">
+                                                    <img src="IMG/7.jpg" class="card-img-top rounded-0 bor img-hov"
+                                                        alt="...">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery item end -->
+                                    <div class="col-4 gallery-item Photography Fashion Product">
+                                        <div class="card rounded-0 border-0 shadow rounded gallery-item-inner">
+                                            <div class="card-body p-4">
+                                                <h4 class="font-hov-sec-5">Web Application</h4>
+                                                <p>Behance Shot</p>
+                                                <div class="img-ovrly">
+                                                    <img src="IMG/6.jpg" class="card-img-top rounded-0 bor img-hov"
+                                                        alt="...">
+                                                    <div class="overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- gallery item end -->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container-fluid">
+        <div class="container py-5">
+            <div class="row justify-content-center align-items-center height-sec-4">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card border-0 mb-3 bg-transparent p-5">
+                                            <div class="row g-0">
+                                                <div class="col-md-4 back-b">
+                                                    <div class="back-bordr">
+                                                        <img src="IMG/team-1.jpg" class="img-fluid" alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="mb-0">I design and develop services for
+                                                            customers of all sizes,
+                                                            specializing in creating stylish, modern websites, web
+                                                            services
+                                                            and online stores.</p>
+                                                        <h6 class="my-2">Nancy Byers</h6>
+                                                        <div class="star-ic">
+                                                            <i
+                                                                class="fa-regular fa-star rounded-pill icon-str p-2 shadow"><span
+                                                                    class="px-2 text-decoration-none text-dark">5.0</span>
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card border-0 mb-3 bg-transparent  p-5">
+                                            <div class="row g-0">
+                                                <div class="col-md-4 back-b">
+                                                    <div class="back-bordr">
+                                                        <img src="IMG/team-2.jpg" class="img-fluid" alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="mb-0"> I design and develop services for
+                                                            customers of all sizes,
+                                                            specializing in creating stylish, modern websites, web
+                                                            services
+                                                            and online stores.</p>
+                                                        <h6 class="my-2">Janiaya kiaram</h6>
+                                                        <div class="star-ic">
+                                                            <i
+                                                                class="fa-regular fa-star rounded-pill icon-str p-2 shadow"><span
+                                                                    class="px-2 text-decoration-none text-dark">5.0</span>
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card border-0 mb-3 bg-transparent p-5">
+                                            <div class="row g-0">
+                                                <div class="col-md-4 back-b">
+                                                    <div class="back-bordr">
+                                                        <img src="IMG/team-4.jpg" class="img-fluid" alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="mb-0"> I design and develop services for
+                                                            customers of all sizes,
+                                                            specializing in creating stylish, modern websites, web
+                                                            services
+                                                            and online stores.</p>
+                                                        <h6 class="my-2">Jara Afsari</h6>
+                                                        <div class="star-ic">
+                                                            <i
+                                                                class="fa-regular fa-star rounded-pill icon-str p-2 shadow"><span
+                                                                    class="px-2 text-decoration-none text-dark">5.0</span>
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card border-0 mb-3 bg-transparent p-5">
+                                            <div class=" row g-0">
+                                                <div class="col-md-4 back-b">
+                                                    <div class="back-bordr">
+                                                        <img src="IMG/team-2.jpg" class="img-fluid" alt="...">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="mb-0"> I design and develop services for
+                                                            customers of all sizes,
+                                                            specializing in creating stylish, modern websites, web
+                                                            services
+                                                            and online stores.</p>
+                                                        <h6 class="my-2">Jara Afsari</h6>
+                                                        <div class="star-ic">
+                                                            <i
+                                                                class="fa-regular fa-star rounded-pill icon-str p-2 shadow"><span
+                                                                    class="px-2 text-decoration-none text-dark">5.0</span>
+                                                            </i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  justify-content-center align-items-center text-center">
+                    <div class="col-12 m-auto">
+                        <input type="radio" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class
+                            class="active" aria-current="true" aria-label="Slide 1">
+                        <input type="radio" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="active"
+                            aria-current="true" aria-label="Slide 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-icolr-7">
+        <a name="bilog"></a>
+        <div class="container py-5">
+            <div class="row  justify-content-center align-items-center text-center py-5">
+                <div class="col-6">
+                    <h1 class="fw-bold">Recent articles</h1>
+                    <div class="row justify-content-center text-center py-3">
+                        <div class="col-1 line-h"></div>
+                    </div>
+                    <p class="text-secondary">I design and develop services for customers of all sizes, specializing in
+                        creating stylish, modern websites, web services and online stores.</p>
+                </div>
+            </div>
+            <div class="row wrapper">
+                <div class="col-4 parent">
+                    <img src="IMG/blog-1.jpg" class="img-fluid child" alt="">
+                </div>
+                <div class="col-4 parent">
+                    <img src="IMG/blog-2.jpg" class="img-fluid child" alt="">
+                </div>
+                <div class="col-4 parent">
+                    <img src="IMG/blog-3.jpg" class="img-fluid child" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 px-3 trsform">
+                    <div class="card shadow  border-0 rounded-0">
+                        <div class="card-body">
+                            <h5 class="sec-7-font-hov">I saw few die of hunger of eating, a hundred thousand.</h5>
+                            <p class="text-secondary">Integer vitae mi libero. Aliquam consequat dolor libero, nec
+                                varius
+                                elit tempusporttitor.</p>
+                            <a href="#"><button class="btn-sec-7" type="submit">READ MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-3 trsform">
+                    <div class="card shadow  border-0 rounded-0">
+                        <div class="card-body">
+                            <h5 class="sec-7-font-hov">I saw few die of hunger of eating, a hundred thousand.</h5>
+                            <p class="text-secondary">Integer vitae mi libero. Aliquam consequat dolor libero, nec
+                                varius
+                                elit tempusporttitor.</p>
+                            <a href="#"><button class="btn-sec-7" type="submit">READ MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 px-3 trsform">
+                    <div class="card shadow  border-0 rounded-0">
+                        <div class="card-body">
+                            <h5 class="sec-7-font-hov">I saw few die of hunger of eating, a hundred thousand.</h5>
+                            <p class="text-secondary">Integer vitae mi libero. Aliquam consequat dolor libero, nec
+                                varius
+                                elit tempusporttitor.</p>
+                            <a href="#"><button class="btn-sec-7" type="submit">READ MORE</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-clr-last-se">
+        <a name="contanct"></a>
+        <div class="container py-5">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6 my-3">
+                    <div class="bg-white shadow-lg p-5">
+                        <div class="pb-4">
+                            <h4 class="fw-bold">Contact us</h4>
+                            <div class="col-1 line-h "></div>
+                        </div>
+                        <form class="bg-white shadow-lg px-4 py-5">
+                            <div class="row">
+                                <div class="col-6 pb-4">
+                                    <div><input type="text" class="fomr-cutmiz" placeholder="Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-6 pb-4">
+                                    <div><input type="text" class="fomr-cutmiz" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-4">
+                                    <div><input type="text" class="fomr-cutmiz" placeholder="Subject" name="subject"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="col-12 pb-4">
+                                    <div>
+                                        <textarea rows="6" class="fomr-cutmiz" placeholder="Comment" name="comment"
+                                            required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div>
+                                        <button class="btn-last-sec">Send yourmessage</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6 ">
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <h1>Get in touch</h1>
+                            <p>Always available for freelancing if the right project comes along, Feel free to contact
+                                me.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="row justify-content-center">
+                        <div class="col-1"><i class="fa-regular fa-map www"></i></div>
+                        <div class="col-6">
+                            <p>123 Stree New York City,</p>
+                            <p>United States Of America</p>
+                            <p>NY 750065.</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-1"><i class="fa-regular fa-envelope www"></i></div>
+                        <div class="col-6">
+                            <p>support@domain.com</p>
+                            <p>info@domain.com</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-1"><i class="fa-solid fa-mobile-screen-button www"></i></div>
+                        <div class="col-6">
+                            <p>+044 9669696636</p>
+                            <p>+044 966 9696 636</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-lst-color">
+        <div class="container">
+            <div class="row align-items-center py-4">
+                <div class="col-md-6 my-2">
+                    <div class="nav justify-content-center text-center text-md-left justify-content-md-start">
+                        <a href="https://www.facebook.com/ITCentreRYK/"><i
+                                class="fa-brands fa-facebook-f link-icons-hov p-2 mx-2"></i></a>
+                        <a href="https://twitter.com/i/flow/login"><i
+                                class="fa-brands fa-twitter link-icons-hov p-2 mx-2"></i></a>
+                        <a href="https://www.instagram.com/itcentreryk/"><i
+                                class="fa-brands fa-instagram link-icons-hov p-2 mx-2"></i></a>
+                        <a href="https://pk.linkedin.com/company/icr-it-center-ryk"><i
+                                class="fa-brands fa-linkedin-in link-icons-hov p-2 mx-2"></i></a>
+                        <a href="https://www.pinterest.com/"><i
+                                class="fa-brands fa-pinterest-p link-icons-hov p-2 mx-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 my-2 text-white text-center text-md-right">
+                    <p>© 2022 copyright <a href="https://itcentre.pk/" target="_blank" rel="noreferrer">It-Cente-RYK</a>
+                        all right reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button type="button" class="btn btn-danger last-scrool btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa-solid fa-angles-up"></i>
+    </button>
+
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) {
+                    $(".black").css("background", "white");
+                }
+
+                else {
+                    $(".black").css("background", "transparent");
+                }
+            })
+        })
+    </script>
+    <script>
+        let mybutton = document.getElementById("btn-back-to-top");
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        mybutton.addEventListener("click", backToTop);
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+    <!------------------------------------End Portfolio section------------------------------------->
+    <script>
+        const filterContainer = document.querySelector(".gallery-filter"),
+            galleryItems = document.querySelectorAll(".gallery-item");
+
+        filterContainer.addEventListener("click", (event) => {
+            if (event.target.classList.contains("filter-item")) {
+                // deactivate existing active 'filter-item'
+                filterContainer.querySelector(".active").classList.remove("active");
+                // activate new 'filter-item'
+                event.target.classList.add("active");
+                const filterValue = event.target.getAttribute("data-filter");
+                galleryItems.forEach((item) => {
+                    if (item.classList.contains(filterValue) || filterValue === 'all') {
+                        item.classList.remove("hide");
+                        item.classList.add("show");
+                    }
+                    else {
+                        item.classList.remove("show");
+                        item.classList.add("hide");
+                    }
+                });
+            }
+        });
+    </script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <!------------------------------navbar--------------->
+    <script>
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 150) {
+                $("#navbar").addClass("activee");
+            } else {
+                $("#navbar").removeClass("activee");
+            }
+        });
+    </script>
+    <!------------------------End navbar   -->
+
+</body>
+
+</html>
