@@ -788,20 +788,24 @@
     </button>
 
 
+
+            <!------------------------------navbar--------------->
+            <script>
+                $(window).on("scroll", function () {
+                    if ($(window).scrollTop() > 150) {
+                        $("#navbar").addClass("activee");
+                    } else {
+                        $("#navbar").removeClass("activee");
+                    }
+                });
+            </script>
+            <!------------------------End navbar   -->
+
+
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.js"></script>
 
 
-        <!------------------------------navbar--------------->
-        <script>
-            $(window).on("scroll", function () {
-                if ($(window).scrollTop() > 150) {
-                    $("#navbar").addClass("activee");
-                } else {
-                    $("#navbar").removeClass("activee");
-                }
-            });
-        </script>
-        <!------------------------End navbar   -->
+
 
     <script>
         let mybutton = document.getElementById("btn-back-to-top");
