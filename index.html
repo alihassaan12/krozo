@@ -754,28 +754,6 @@
                                 me.</p>
                         </div>
                     </div>
-                    <!-- <div class="row justify-content-center">
-                        <div class="col-1"><i class="fa-regular fa-map www"></i></div>
-                        <div class="col-6">
-                            <p>123 Stree New York City,</p>
-                            <p>United States Of America</p>
-                            <p>NY 750065.</p>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-1"><i class="fa-regular fa-envelope www"></i></div>
-                        <div class="col-6">
-                            <p>support@domain.com</p>
-                            <p>info@domain.com</p>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col-1"><i class="fa-solid fa-mobile-screen-button www"></i></div>
-                        <div class="col-6">
-                            <p>+044 9669696636</p>
-                            <p>+044 966 9696 636</p>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>
@@ -810,20 +788,18 @@
     </button>
 
 
+    <!------------------------------navbar--------------->
     <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll > 100) {
-                    $(".black").css("background", "white");
-                }
-
-                else {
-                    $(".black").css("background", "transparent");
-                }
-            })
-        })
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 150) {
+                $("#navbar").addClass("activee");
+            } else {
+                $("#navbar").removeClass("activee");
+            }
+        });
     </script>
+    <!------------------------End navbar   -->
+
     <script>
         let mybutton = document.getElementById("btn-back-to-top");
         window.onscroll = function () {
@@ -845,7 +821,6 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
-
 
     <!------------------------------------End Portfolio section------------------------------------->
     <script>
@@ -873,24 +848,9 @@
         });
     </script>
 
-
     <script>
         AOS.init();
     </script>
-
-
-
-    <!------------------------------navbar--------------->
-    <script>
-        $(window).on("scroll", function () {
-            if ($(window).scrollTop() > 150) {
-                $("#navbar").addClass("activee");
-            } else {
-                $("#navbar").removeClass("activee");
-            }
-        });
-    </script>
-    <!------------------------End navbar   -->
 
 </body>
 
